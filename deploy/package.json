@@ -1,0 +1,16 @@
+{
+  "name": "@statespacelabs/auth-infra",
+  "version": "1.0.0",
+  "description": "Anthic Auth Infra",
+  "repository": "git://github.com/statespacelabs/anthic-auth.git",
+  "main": "deploy.ts",
+  "scripts": {
+    "deploy": "pulumi up"
+  },
+  "dependencies": {
+    "5": "0.0.1",
+    "@statespacelabs/pulumi": "0.6.1"
+  },
+  "devDependencies": {},
+  "license": "UNLICENSED"
+}
